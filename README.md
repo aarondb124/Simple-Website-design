@@ -1,6 +1,6 @@
 - 👋 Hi, I’m @aarondb124
 - 👀 I’m interested in Web Development
-- 🌱 I’m currently learning Nodejs
+- 🌱 I’m currently learning laravel
 - 💞️ I’m looking to collaborate on a website project
 - 📫 How to reach me 
 
