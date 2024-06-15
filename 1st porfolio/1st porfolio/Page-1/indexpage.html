@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+    <meta charset="UTF-8">
+    <meta name="author" content="Aaron D. Angshu">
+    <meta http-equiv="refresh" content="30">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    <head>
+        <title>Index</title>
+        <link rel="icon" type="image/png" href="http://127.0.0.1:3000/img/favicon.png">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <header>
+        <script src="myscript.js"></script>
+        <h1 style="font-family:san sarif;">AD</h1>
+    </header> 
+
+    <body>   
+
+    <div class="topnav" id="myTopnav">
+           
+      <a href="http://127.0.0.1:3000/Page-1/indexpage.html" class="active">Home</a>
+      <a href="http://127.0.0.1:3000/Page-2/Education.html">EDUCATION</a>
+      <a href="http://127.0.0.1:3000/Page-3/experience.html">EXPERIENCE</a>
+      <a href="http://127.0.0.1:3000/Page-4/Expertise.html">EXPERTICE</a>
+      <a href="http://127.0.0.1:3000/Page-5/Skills.html">SKILLS</a>
+      <a href="http://127.0.0.1:3000/Page-6/Contact.html">CONTACT</a>
+      <a href="http://127.0.0.1:3000/Page-7/aboutme.html">ABOUT ME</a>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+      </a>
+    </div>
+
+
+
+
+          <div class="container">
+            <h1 style="text-align: left;">Hi! My name is Aaron Debakor Biswas</h1>
+            <div class="row">
+              <div class="column">
+                  <img src="http://127.0.0.1:3000/img/pp.png" alt="My profile picture">
+              </div>
+
+              <div class="column">
+                  <p><h3>Phone number:</h3>01319347937</p>
+                  <p><h3>Email:</h3>aarondb124@gmail.com</p>
+                  <p><h3>Address:</h3>BBCS Hostel,1,Liaquate Avenue ,Sadarghat, Dhaka.</p>
+                  <p><h3>Date of Birth:</h3>5th August,1999</p>
+              </div>
+            </div>
+          </div>
+
+          <script>
+            function myFunction() {
+              var x = document.getElementById("myTopnav");
+              if (x.className === "topnav") {
+                x.className += " responsive";
+              } else {
+                x.className = "topnav";
+              }
+            }
+          </script>      
+    </body>
+    <!-- Remove the container if you want to extend the Footer to full width. -->
+<div class="container my-5" style="text-align: center; max-width: 100%; margin: 0%; bottom: 0%;" >
+
+  <footer class="text-center text-lg-start" style="background-color: #30db8b15; ">
+    <div class="container d-flex justify-content-center py-5" >
+      <button type="button" class="btn btn-primary btn-lg btn-floating mx-1"
+      onclick="window.location.href='https://web.facebook.com/michel.andrew.5015/';"
+       style="background-color: #3983c9;border-radius: 20%;">
+        <i class="fa fa-facebook-f"></i>
+      </button>
+      <button type="button" class="btn btn-primary btn-lg btn-floating mx-2" 
+      onclick="window.location.href='mailto:aarondb124@gmail.com';"
+      style="background-color: #cf1616d5; border-radius: 20%;"  >
+        <i class="fa fa-google"></i>
+      </button>
+      <button type="button" class="btn btn-primary btn-lg btn-floating mx-2"
+      onclick="window.location.href='https://www.instagram.com/aaron_debakor_biswas/';"
+       style="background-color: #d4245f; border-radius: 20%;">
+        <i class="fa fa-instagram"></i>
+      </button>
+      <button type="button" class="btn btn-primary btn-lg btn-floating mx-2" 
+      onclick="whatsapp"
+      style="background-color: #76db76; border-radius: 20%; ">
+      <script>
+        function whatsapp(){
+          alert("whatapp:01918617195");
+        }
+      </script>
+        <i class="fa fa-whatsapp"></i>
+
+
+      </button>
+    </div>
+
+    <!-- Copyright -->
+    <div class="text-center text-white p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+      © 2022 Copyright:
+      <a class="text-white1" href="#">Aaron D. Angshu</a>
+    </div>
+    <!-- Copyright -->
+
+
+
+  </footer>
+  
+</div>
+<!-- End of .container -->
+</html>

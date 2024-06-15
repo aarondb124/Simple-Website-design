@@ -1,0 +1,215 @@
+@import "compass/css3";
+@import "compass/reset";
+
+*{box-sizing: border-box;}
+body{
+    background-color:darkslategrey;   
+    margin: 0%;
+    transition: padding-top .5s ease;
+}
+
+header{
+    
+    text-shadow: 2px 2px rgb(65, 62, 62);
+    width: 100%;
+    height: 50px;
+    top: 0;
+    overflow: hidden;
+    background-color: none;
+    text-align: center;
+    transition: all .5s ease;
+
+
+}
+ header h1{
+    display: inline;
+    top: 0;
+    font-size: 50px;
+    padding-left: 20px;
+    color: rgb(7, 158, 27);
+    text-transform: uppercase;
+    transition: all .3 ease;
+}
+
+
+.topnav {
+    
+    position: sticky;
+    top: 0;
+    overflow: hidden;
+    background-color: none;
+   
+  }
+
+  .topnav a {
+    
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    border-radius: 20%;
+    bottom: 2px;
+  }
+
+  .topnav a:hover {
+    
+    outline: 5px ;
+    color: black;
+    box-shadow: 2px 2px 5px #04AA6D;
+  }
+
+  .topnav a:after {
+    
+    outline: 5px ;
+    color: white;
+    background: lime;
+    box-shadow: 2px 2px 5px #04AA6D;
+  }
+
+  .topnav a.active {
+   
+    float: left;
+    background-color: #04AA6D;
+    color: white;
+  }
+
+  .topnav a.active:hover {
+    background-color: white;
+    color: black;
+  }
+
+  .topnav .icon {
+    box-shadow: none;
+    padding: 0%;
+    display: none;
+  }
+
+  @media screen and (max-width: 600px) {
+    .topnav a:not(:first-child) {display: none;}
+    .topnav a.icon {
+      
+      float: right;
+      display: block;
+    }
+  }
+
+    @media screen and (max-width: 600px) {
+        .topnav.responsive {position: relative;}
+        .topnav.responsive a.icon {
+          box-shadow: none;
+          position: absolute;
+          right: 0;
+          top: 0;
+        }
+        .topnav.responsive a {
+          float: none;
+          display: block;
+          text-align: center;
+        }
+      }
+
+
+.container {
+    
+    
+    border-radius: 5px;
+    padding: 10px;
+    
+  }
+
+.container h1{
+    font-family: 'Courier New', Courier, monospace;
+    color: lime;
+    text-shadow: 2px 2px 5px rgba(0, 100, 0, 0.356);
+} 
+
+  .column {
+    color: lightgreen;
+    float: left;
+    width: 50%;
+    margin-top: 6px;
+    padding:15%;
+    padding-bottom: 60px;
+  }
+
+  .column img{
+    max-width: 300px;
+    margin: auto;
+    border-radius: 20%;
+    box-shadow: 3px 3px 5px  rgba(169, 169, 169, 0.418);
+  }
+
+  .column h3{
+    color: lime;
+    font-family: 'Courier New', Courier, monospace;
+  }
+  .column p{
+    text-anchor: start;
+    color: lightgreen;
+  }
+
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  @media screen and (max-width: 600px) {
+    .column, input[type=submit] {
+      width: 100%;
+      margin-top: 0;
+    }
+  }
+
+  
+  .text-white{
+    text-decoration: none;
+    color: black;
+    font-style: italic;
+    font-family: 'Courier New', Courier, monospace;
+    
+    
+  }
+
+  .text-white1{
+    text-decoration: none;
+    color: black;
+    font-style: italic;
+    font-family: 'Courier New', Courier, monospace;
+    
+    
+  }
+
+  .text-white1:hover{
+    text-decoration: none;
+    color: lightgreen;
+    font-style: italic;
+    font-family: 'Courier New', Courier, monospace;
+    
+    
+  }
+
+  
+.fa{
+    display: inline-block;
+    border-radius: 20%;
+    padding: 15px;
+    cursor: pointer;
+    outline: none;
+      font-size: 20px;
+      color: white;
+      border-radius: 20%;
+}
+
+.fa:hover{
+    opacity: 0.5;
+}
+
+.fa:active {
+    
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
